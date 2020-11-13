@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STATUT Platinium2"
+            android:textStyle="italic"
+            android:textColor="@color/colorblack"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/statut1"
+            android:textColor="@color/colorblack"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/statut11"
+            android:textColor="@color/colorblack"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/paiement"
+            android:textColor="@color/colorblack"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paiement11"
+            android:textColor="@color/colorblack"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="STATUT Gold"
+            android:textStyle="italic"
+            android:textColor="@color/colorblack"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Des frais de livraison réduits"
+            android:textColor="@color/colorblack"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/benidice"
+            android:textColor="@color/colorblack"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Un paiement de votre commande à la livraison"
+            android:textColor="@color/colorblack"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paiement12"
+            android:textColor="@color/colorblack"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STATUT Silver"
+            android:textStyle="italic"
+            android:textColor="@color/colorblack"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Des frais de livraison réduits"
+            android:textColor="@color/colorblack"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/silver"
+            android:textColor="@color/colorblack"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Un paiement de votre commande à la livraison"
+            android:textColor="@color/colorblack"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/silver12"
+            android:textColor="@color/colorblack"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
+
+</ScrollView>

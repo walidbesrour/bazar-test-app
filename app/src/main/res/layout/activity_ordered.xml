@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    <variable
+        name="ModelView"
+        type="com.example.elbazar.MovieViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Ordered">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/btn_l">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Recycle1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/btn_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/valider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/facebook"
+                android:text="acheter"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:onClick="acheter"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/google_btn"
+                android:layout_below="@+id/valider"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="appelez"
+                android:textSize="20dp"
+                android:textColor="@color/colorRed"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>

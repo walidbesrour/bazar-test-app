@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="STORAGAE">
+        <menu>
+
+            <item
+                    android:id="@+id/Alimentation"
+                    android:title="Alimentation"
+                    android:icon="@drawable/ic_store" />
+            <item
+                android:id="@+id/hygiene"
+                android:title="hygiène"
+                android:icon="@drawable/ic_baseline_sanitizer_24" />
+            <item
+                android:id="@+id/electronique"
+                android:title="electronique"
+                android:icon="@drawable/ic_baseline_point_of_sale_24" />
+            <item
+                android:id="@+id/Promo"
+                android:title="Promo"
+                android:icon="@drawable/ic_baseline_phonelink_24" />
+        </menu>
+    </item>
+
+
+    <item android:title="APP">
+        <menu>
+            <item android:title="Settings"
+                android:icon="@drawable/ic_baseline_local_post_office_24" />
+            <item android:title="Log Out"
+                android:icon="@drawable/ic_baseline_power_settings_new_24" />
+        </menu>
+    </item>
+
+
+
+
+</menu>

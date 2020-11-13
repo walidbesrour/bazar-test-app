@@ -1,0 +1,2 @@
+include ':app',':navigationlistview', ':autoimageslider', ':floatingtextbutton'
+rootProject.name = "Elbazar"
